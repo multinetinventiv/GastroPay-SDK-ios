@@ -1,0 +1,178 @@
+"merchants_merchant_distance_label_km_gastropay_sdk" = "%1$s KM YAKININDA";
+"merchants_merchant_distance_label_mt_gastropay_sdk" = "%1$s M YAKININDA";
+
+/*endregion OTP
+region Merchants*/
+"merchants_near_me_gastropay_sdk" = "Yakınımdakiler";
+"merchants_warning_location_permission_title_gastropay_sdk" = "Lokasyon izni gerekli";
+"merchants_warning_location_permission_description_gastropay_sdk" = "Yakınınızdaki Gastro restoranları görebilmeniz için lütfen lokasyon iznini kabul edin.";
+
+/*region Bottom Navigation*/
+"bottom_bar_merchants_gastropay_sdk" = "Restoranlar";
+"bottom_bar_wallet_gastropay_sdk" = "Cüzdan";
+"bottom_bar_pay_gastropay_sdk" = "Ödeme Yap";
+"merchants_warning_no_restaurant_found_gastropay_sdk" = "Aradığınız konumda restoran bulunamadı.";
+"merchants_restaurants_permission_dialog_button_text_gastropay_sdk" = "AYARLARA GİT";
+
+/*endregion Merchants
+region Merchant Detail*/
+"merchant_detail_earn_gastropay_sdk" = "KAZAN";
+"merchant_detail_value_degree_gastropay_sdk" = "PAHALILIK DERECESİ";
+"merchant_detail_description_gastropay_sdk" = "AÇIKLAMA";
+"merchant_detail_navigation_button_gastropay_sdk" = "YOL TARİFİ AL";
+
+/*endregion Bottom Navigation
+region Login*/
+"login_toolbar_title_gastropay_sdk" = "Giriş Yap";
+"login_view_title_gastropay_sdk" = "Merhaba";
+"login_view_desc_gastropay_sdk" = "Üyeliğinize giriş yapmak için sistemde kayıtlı cep telefonu numaranızı aşağıdaki alana giriniz.";
+"login_view_phone_number_hint_gastropay_sdk" = "Cep Telefonunuz";
+"login_view_button_gastropay_sdk" = "Onay Kodunu Gönder";
+"otp_button_resend_gastropay_sdk" = "Tekrar Gönder";
+
+/*endregion Login
+region OTP*/
+"otp_sms_label_gastropay_sdk" = "Lütfen %1$s numaralı cep telefonunuza SMS ile gelen onay kodunu girin.";
+"otp_timer_label_gastropay_sdk" = "Kodu girmeniz için %1$s saniye kaldı!";
+"merchant_detail_spend_gastropay_sdk" = "HARCA";
+
+/*Son İşlemler*/
+"wallet_last_transactions_gastropay_sdk" = "Son İşlemler";
+
+/*Biriken TL Puanlarım*/
+"wallet_my_saved_points_gastropay_sdk" = "Biriken TL Puanlarım";
+
+/*Puan*/
+"wallet_point_gastropay_sdk" = "Puan";
+
+/*Harcama*/
+"wallet_spend_gastropay_sdk" = "Harcama";
+
+/*Kazanım*/
+"wallet_earn_gastropay_sdk" = "Kazanım";
+"merchant_detail_navigation_cancel_gastropay_sdk" = "İptal";
+"merchant_detail_navigation_apple_maps_gastropay_sdk" = "Apple Harita";
+"merchant_detail_navigation_google_maps_gastropay_sdk" = "Google Harita";
+"merchant_detail_navigation_yandex_maps_gastropay_sdk" = "Yandex Harita";
+
+/*MARK: OTP*/
+"otp_label" = "Cep Telefonunuzu Doğrulayın";
+"otp_confirmation_code" = "ONAY KODU";
+
+/*MARK: Login*/
+"network__error_title" = "Bir hata oluştu.";
+"search_restaurant_button_filter_gastropay_sdk" = "FİLTRELE";
+"search_restaurant_button_clear_filter_gastropay_sdk" = "FİLTRE TEMİZLE";
+
+/*Fuzzy*/
+"wallet_no_transactions_gastropay_sdk" = "Son yapılan işleminiz bulunmamaktadır";
+"qr_scan_qrcode_gastropay_sdk" = "Kare Kod Okut";
+"qr_scan_popup_camera_permission_body_gastropay_sdk" = "Bu özellik için gerekli kamera izni devre dışı! Ayarlardan izinlerinizi ayarlayabilirsiniz.";
+"qr_scan_popup_camera_permission_action_button_gastropay_sdk" = "AYARLARA GİT";
+
+/*Fuzzy*/
+"qr_scan_qrcode_reading_error_gastropay_sdk" = "QR Kod okuma işleminde bir sorun yaşandı. Lütfen tekrar deneyiniz.";
+
+/*Son İşlemler*/
+"wallet_last_transactions_gastropay_sdk" = "Son İşlemler";
+
+/*Biriken TL Puanlarım*/
+"wallet_my_saved_points_gastropay_sdk" = "Biriken TL Puanlarım";
+
+/*Puan*/
+"wallet_point_gastropay_sdk" = "Puan";
+
+/*Harcama*/
+"wallet_spend_gastropay_sdk" = "Harcama";
+
+/*Kazanım*/
+"wallet_earn_gastropay_sdk" = "Kazanım";
+
+/*Fuzzy*/
+"common_warning_gastropay_sdk" = "Uyarı";
+
+/*Fuzzy*/
+"common_done_gastropay_sdk" = "Tamam";
+
+/*Fuzzy*/
+"common_cancel_gastropay_sdk" = "Vazgeç";
+
+/*MARK: Search Restaurant*/
+/*Fuzzy*/
+"search_merchant_button_filter_gastropay_sdk" = "FİLTRELE";
+
+/*Fuzzy*/
+"search_merchant_button_clear_filter_gastropay_sdk" = "FİLTRE TEMİZLE";
+
+/*Fuzzy*/
+"search_merchant_searchview_hint_text" = "Restoran Ara";
+
+/*Fuzzy*/
+"search_merchant_spinner_city_gastropay_sdk" = "Tüm İller";
+
+/*Fuzzy*/
+"search_merchant_spinner_region_gastropay_sdk" = "Tüm Bölgeler";
+
+/*Fuzzy*/
+"search_merchant_spinner_area_title_gastropay_sdk" = "Konum";
+
+/*Fuzzy*/
+"search_merchant_search_bar_placeholder_gastropay_sdk" = "Arayın";
+"payment_confirmation_navigation_title_gastropay_sdk" = "ÖDEME YAP";
+
+/*Fuzzy*/
+"payment_confirmation_order_gastropay_sdk" = "Sipariş";
+"payment_confirmation_button_pay_gastropay_sdk" = "ÖDEME YAP";
+"payment_confirmation_amount_payable_title_gastropay_sdk" = "ÖDENECEK TUTAR";
+"payment_confirmation_spendable_amount_label_gastropay_sdk" = "Harcayabileceğiniz Bakiye";
+"payment_confirmation_spended_amount_label_gastropay_sdk" = "Harcanan TL Puan";
+"payment_confirmation_spendable_amount_button_text_gastropay_sdk" = "HARCA";
+"payment_confirmation_spendable_amount_button_cancel_text_gastropay_sdk" = "İPTAL";
+"payment_confirmation_select_bank_card_label_gastropay_sdk" = "Kart Seçiniz";
+"payment_confirmation_selected_bank_card_text_gastropay_sdk" = "Seçili Kart";
+"payment_confirmation_spending_amount_gastropay_sdk" = "Harcanacak TL Puan";
+"payment_confirmation_total_amount_gastropay_sdk" = "Ödenecek Tutar";
+"payment_success_contact_us_header_gastropay_sdk" = "GastroPay ile ödeme deneyiminiz nasıldı?";
+"payment_success_contact_us_info_gastropay_sdk" = "Her türlü yorum, görüş ve öneri için bize ulaşabilirsiniz.";
+"payment_success_button_contact_us_gastropay_sdk" = "BİZE ULAŞIN";
+"payment_success_payment_success_label_gastropay_sdk" = "Ödemeniz Başarılı";
+"payment_success_done_button_text_gastropay_sdk" = "BİTİR";
+"payment_success_navigation_title_gastropay_sdk" = "ÖDEME BAŞARILI";
+"settings_navigation_title_gastropay_sdk" = "Ayarlar";
+"settings_terms_of_use_gastropay_sdk" = "Kullanıcı Koşulları";
+"settings_contact_permissions_gastropay_sdk" = "İletişim İzinleri";
+"settings_faq_gastropay_sdk" = "Sıkça Sorulan Sorular";
+"settings_contact_us_gastropay_sdk" = "Bize Ulaşın";
+
+/*Vazgeç*/
+"generic_webview_cancel_gastropay_sdk" = "Vazgeç";
+
+/*Tamam*/
+"generic_webview_ok_gastropay_sdk" = "Tamam";
+"transaction_detail_navigation_title_gastropay_sdk" = "İŞLEM DETAYI";
+"transaction_detail_merchant_label_gastropay_sdk" = "Firma";
+"transaction_detail_amount_label_gastropay_sdk" = "Tutar";
+"transaction_detail_date_label_gastropay_sdk" = "Tarih";
+"transaction_detail_transaction_type_label_gastropay_sdk" = "İşlem Durumu";
+"transaction_detail_bill_label_gastropay_sdk" = "Fatura Numarası";
+"wallet_cancel_gastropay_sdk" = "İptal";
+"transaction_detail_invoice_send_gastropay_sdk" = "Faturanız başarıyla gönderildi.";
+"contact_us_mail_subject_gastropay_sdk" = "GastroPay Yardım İsteği";
+"contact_us_call_gastropay_sdk" = "Bizi Arayın";
+"contact_us_write_gastropay_sdk" = "Bize yazın";
+"contact_us_title_gastropay_sdk" = "Bize Ulaşın";
+
+/*Vazgeç*/
+"generic_webview_cancel_gastropay_sdk" = "Vazgeç";
+
+/*Tamam*/
+"generic_webview_ok_gastropay_sdk" = "Tamam";
+
+/*Fuzzy*/
+"settings_notification_toolbar_title_gastropay_sdk" = "Bildirim";
+
+/*Fuzzy*/
+"settings_notification_channel_1_gastropay_sdk" = "Sms";
+
+/*Fuzzy*/
+"settings_notification_channel_2_gastropay_sdk" = "E-posta";

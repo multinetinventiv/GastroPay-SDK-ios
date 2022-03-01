@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '12.0'
+
+target 'Sample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Sample
+
+	# To use pod from Cocoapods
+	# pod 'Gastropay'
+
+	# To use specific version
+	# pod 'Gastropay', '~> 0.0.6'	
+
+	# To use directly from repo
+	# pod 'Gastropay', :git => 'https:***REMOVED***github.com/multinetinventiv/GastroPay-SDK-ios.git'
+
+	# To use in development mode
+	 pod 'Gastropay', :path => '../'
+
+	pod 'IQKeyboardManagerSwift'
+
+end
+
+target 'GastroSdkTests' do
+
+  	# Comment the next line if you don't want to use dynamic frameworks
+  	use_frameworks!
+
+	# To use pod from Cocoapods
+	# pod 'Gastropay'
+
+	# To use specific version
+	# pod 'Gastropay', '~> 0.0.6'	
+
+	# To use directly from repo
+	# pod 'Gastropay', :git => 'https:***REMOVED***github.com/multinetinventiv/GastroPay-SDK-ios.git'
+
+	# To use in development mode
+	 pod 'Gastropay', :path => '../'
+  
+
+end
