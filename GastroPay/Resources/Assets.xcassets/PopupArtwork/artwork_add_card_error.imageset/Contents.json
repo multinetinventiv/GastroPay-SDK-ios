@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "artwork_add_card_error.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

@@ -1,0 +1,181 @@
+PODS:
+  - AlignedCollectionViewFlowLayout (1.1.2)
+  - AloeStackView (1.2.0)
+  - AMXFontAutoScale (1.2.0)
+  - Bartinter (0.0.5)
+  - Cache (5.3.0)
+  - Codextended (0.3.0)
+  - Gastropay (0.0.10):
+    - AlignedCollectionViewFlowLayout
+    - AloeStackView
+    - AMXFontAutoScale
+    - Bartinter
+    - Codextended
+    - GoogleMaps
+    - Lightbox
+    - MaterialComponents/TextFields
+    - Result (~> 4.1)
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - SwiftMessages
+    - SwiftyMarkdown
+    - Swinject
+    - Then (~> 2.6)
+    - XCGLogger (~> 7.0.1)
+    - YPNavigationBarTransition (~> 2.0)
+  - GoogleMaps (4.2.0):
+    - GoogleMaps/Maps (= 4.2.0)
+  - GoogleMaps/Base (4.2.0)
+  - GoogleMaps/Maps (4.2.0):
+    - GoogleMaps/Base
+  - Imaginary (4.3.1):
+    - Cache (~> 5.3.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Lightbox (2.4.2):
+    - Imaginary (~> 4.3.1)
+  - MaterialComponents/AnimationTiming (124.2.0)
+  - MaterialComponents/Availability (124.2.0)
+  - MaterialComponents/Buttons (124.2.0):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/Shadow
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (124.2.0):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (124.2.0)
+  - MaterialComponents/private/Application (124.2.0)
+  - MaterialComponents/private/Color (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/private/Math (124.2.0)
+  - MaterialComponents/Ripple (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Shadow (124.2.0):
+    - MaterialComponents/Availability
+  - MaterialComponents/ShadowElevations (124.2.0)
+  - MaterialComponents/ShadowLayer (124.2.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (124.2.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (124.2.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (124.2.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (124.2.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+    - MDFTextAccessibility
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.1)
+  - ObjcExceptionBridging (1.0.1):
+    - ObjcExceptionBridging/ObjcExceptionBridging (= 1.0.1)
+  - ObjcExceptionBridging/ObjcExceptionBridging (1.0.1)
+  - Result (4.1.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SkeletonView (1.25.1)
+  - SnapKit (5.0.1)
+  - SwiftMessages (9.0.4):
+    - SwiftMessages/App (= 9.0.4)
+  - SwiftMessages/App (9.0.4)
+  - SwiftyMarkdown (0.6.2)
+  - Swinject (2.8.0)
+  - Then (2.7.0)
+  - XCGLogger (7.0.1):
+    - XCGLogger/Core (= 7.0.1)
+  - XCGLogger/Core (7.0.1):
+    - ObjcExceptionBridging
+  - YPNavigationBarTransition (2.1.1)
+
+DEPENDENCIES:
+  - Gastropay (from `../`)
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  trunk:
+    - AlignedCollectionViewFlowLayout
+    - AloeStackView
+    - AMXFontAutoScale
+    - Bartinter
+    - Cache
+    - Codextended
+    - GoogleMaps
+    - Imaginary
+    - IQKeyboardManagerSwift
+    - Lightbox
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - ObjcExceptionBridging
+    - Result
+    - SDWebImage
+    - SkeletonView
+    - SnapKit
+    - SwiftMessages
+    - SwiftyMarkdown
+    - Swinject
+    - Then
+    - XCGLogger
+    - YPNavigationBarTransition
+
+EXTERNAL SOURCES:
+  Gastropay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlignedCollectionViewFlowLayout: ee2ef451e741ec08f8e0967d828001e2f051c20a
+  AloeStackView: 8a4ce0efa08128dd78d538372f60c76c224034bb
+  AMXFontAutoScale: 142e4296a62cab27f9191971657483000655bc00
+  Bartinter: 3c1fc3bcb631b066fdd78f7e01f1635fbafffdea
+  Cache: 48762993ec44e1d93483c4d4a13edd18452326f4
+  Codextended: f384271b8694376ad766ddbf2a011efbfdcee905
+  Gastropay: 31a6aaacee5d6fa587ef98a2e1b3ddba68474b77
+  GoogleMaps: eb03e327edfd70b06de1e6e321653f73712df7ad
+  Imaginary: 18c5bba364229eef383b925199db442e71d175e1
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Lightbox: 8837c35c1150fa0410d94296e369b432d37f18c7
+  MaterialComponents: 1a9b2d9d45b1601ae544de85089adc4c464306d4
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  ObjcExceptionBridging: c30e00eb3700467e695faeea30e26e18bd445001
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SkeletonView: 77079530e1348a72f48b79ae30dcb966c1b18b6a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftMessages: 082ed63613a49fa8e749cd6000bb0a8b9bbc736f
+  SwiftyMarkdown: 483eeba7f992035910fbb2e40cf1fc8c8249c6ac
+  Swinject: db795b8d6d78559b25fbebb0170d2635be1176e2
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  XCGLogger: 1943831ef907df55108b0b18657953f868de973b
+  YPNavigationBarTransition: 7480d51fd36ae8bf0d5ad42d7ec393adfd37d486
+
+PODFILE CHECKSUM: d89a9683402db3b51eb9d4cbd3a4f3a3eb67e7f7
+
+COCOAPODS: 1.10.1

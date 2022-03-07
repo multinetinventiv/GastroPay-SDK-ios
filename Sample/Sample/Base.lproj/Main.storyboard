@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vkH-Ok-vO7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Fof-gQ-vVa">
+            <objects>
+                <navigationController storyboardIdentifier="MainNavigationController" id="vkH-Ok-vO7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hcw-JW-5L4">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mF0-9r-cWx" kind="relationship" relationship="rootViewController" id="ipX-UL-kfq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m04-ga-4Yw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1093" y="22"/>
+        </scene>
+        <!--Select Environment View Controller-->
+        <scene sceneID="8WH-N4-X6E">
+            <objects>
+                <viewController id="mF0-9r-cWx" customClass="SelectEnvironmentViewController" customModule="Sample" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eDQ-xx-IVd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="5B2-J3-xHp" userLabel="EnvStack">
+                                <rect key="frame" x="117" y="87" width="180.5" height="350"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose an environment" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hWM-UC-zwL">
+                                        <rect key="frame" x="0.0" y="0.0" width="180.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4y-xX-kfl" userLabel="Use Dev Environment">
+                                        <rect key="frame" x="36" y="80" width="108" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <state key="normal" title="DEV">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="useDevEnvironmentClicked:" destination="mF0-9r-cWx" eventType="touchUpInside" id="UCC-aG-0Wz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ez1-J4-hEb">
+                                        <rect key="frame" x="36" y="160" width="108" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <state key="normal" title="TEST">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="useTestEnvironmentClicked:" destination="mF0-9r-cWx" eventType="touchUpInside" id="aO4-Ow-Ckd"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jo-Qp-9IC">
+                                        <rect key="frame" x="36" y="240" width="108" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <state key="normal" title="PILOT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="usePilotEnvClicked:" destination="mF0-9r-cWx" eventType="touchUpInside" id="lNN-St-KW8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ybL-Tf-8Tr">
+                                        <rect key="frame" x="36" y="320" width="108" height="30"/>
+                                        <color key="backgroundColor" systemColor="linkColor"/>
+                                        <state key="normal" title="PROD">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="useProdEnvClicked:" destination="mF0-9r-cWx" eventType="touchUpInside" id="OLt-Xg-uJ5"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hWM-UC-zwL" firstAttribute="top" secondItem="5B2-J3-xHp" secondAttribute="top" id="7fy-ud-Z1f"/>
+                                    <constraint firstItem="8jo-Qp-9IC" firstAttribute="width" secondItem="Ez1-J4-hEb" secondAttribute="width" id="Tjl-Fm-1Jk"/>
+                                    <constraint firstItem="Ez1-J4-hEb" firstAttribute="width" secondItem="d4y-xX-kfl" secondAttribute="width" id="jxT-4c-NO1"/>
+                                    <constraint firstItem="hWM-UC-zwL" firstAttribute="centerX" secondItem="5B2-J3-xHp" secondAttribute="centerX" id="qgR-lv-5fB"/>
+                                    <constraint firstItem="ybL-Tf-8Tr" firstAttribute="width" secondItem="8jo-Qp-9IC" secondAttribute="width" id="uwN-o7-Sh2"/>
+                                    <constraint firstItem="d4y-xX-kfl" firstAttribute="width" secondItem="5B2-J3-xHp" secondAttribute="width" multiplier="0.6" id="zhe-4Z-uf5"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ONS-bg-mxT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5B2-J3-xHp" firstAttribute="centerX" secondItem="ONS-bg-mxT" secondAttribute="centerX" id="8RJ-Ao-66b"/>
+                            <constraint firstItem="ONS-bg-mxT" firstAttribute="top" secondItem="5B2-J3-xHp" secondAttribute="top" constant="1" id="nVx-qh-ezh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kxs-4g-46x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ve4-vc-Uf1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-145" y="21"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="CqT-3y-xbe">
+            <objects>
+                <viewController storyboardIdentifier="MainTestViewController" id="hhx-po-HS2" customClass="ViewController" customModule="Sample" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YMR-UI-bs0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="b21-Hj-6Ua" userLabel="SwitchStack">
+                                <rect key="frame" x="52" y="94" width="310.5" height="0.0"/>
+                                <subviews>
+                                    <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9fC-Fh-la6" userLabel="AuthToken">
+                                        <rect key="frame" x="33.5" y="0.0" width="243.5" height="0.0"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="800" text="No Network Test Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elZ-Dp-Chb">
+                                                <rect key="frame" x="0.0" y="0.0" width="174.5" height="0.0"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k3r-65-g2S">
+                                                <rect key="frame" x="194.5" y="0.0" width="51" height="0.0"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="49" id="cAF-Ta-zfZ"/>
+                                                </constraints>
+                                            </switch>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="k3r-65-g2S" firstAttribute="centerY" secondItem="elZ-Dp-Chb" secondAttribute="centerY" id="5Wg-5X-7ob"/>
+                                            <constraint firstItem="elZ-Dp-Chb" firstAttribute="centerY" secondItem="9fC-Fh-la6" secondAttribute="centerY" id="YQH-19-P1Q"/>
+                                            <constraint firstItem="elZ-Dp-Chb" firstAttribute="height" secondItem="9fC-Fh-la6" secondAttribute="height" id="s5v-Pe-Bn8"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9fC-Fh-la6" firstAttribute="centerX" secondItem="b21-Hj-6Ua" secondAttribute="centerX" id="lNm-1l-A3G"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5wh-hI-cZc">
+                                <rect key="frame" x="20.5" y="50" width="373" height="806"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t85-YE-A4d">
+                                        <rect key="frame" x="132" y="0.0" width="109" height="403"/>
+                                        <state key="normal" title="Start GastroPay"/>
+                                        <connections>
+                                            <action selector="startClicked:" destination="hhx-po-HS2" eventType="touchUpInside" id="jrG-gq-Ya8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGX-eu-cx2" userLabel="ClearToken">
+                                        <rect key="frame" x="119.5" y="403" width="134" height="403"/>
+                                        <state key="normal" title="Clear Access Token"/>
+                                        <connections>
+                                            <action selector="clearAccessTokenClicked:" destination="hhx-po-HS2" eventType="touchUpInside" id="wRJ-XY-fxF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Cna-SD-ZQ0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5wh-hI-cZc" firstAttribute="centerY" secondItem="Cna-SD-ZQ0" secondAttribute="centerY" id="9bd-or-tb2"/>
+                            <constraint firstItem="5wh-hI-cZc" firstAttribute="width" secondItem="YMR-UI-bs0" secondAttribute="width" multiplier="0.9" id="ZAc-CX-YBd"/>
+                            <constraint firstItem="b21-Hj-6Ua" firstAttribute="width" secondItem="YMR-UI-bs0" secondAttribute="width" multiplier="0.75" id="btc-yh-f2B"/>
+                            <constraint firstItem="b21-Hj-6Ua" firstAttribute="top" secondItem="Cna-SD-ZQ0" secondAttribute="top" constant="50" id="dpk-1D-ejd"/>
+                            <constraint firstItem="5wh-hI-cZc" firstAttribute="centerX" secondItem="Cna-SD-ZQ0" secondAttribute="centerX" id="hZe-7Y-31z"/>
+                            <constraint firstItem="5wh-hI-cZc" firstAttribute="height" secondItem="YMR-UI-bs0" secondAttribute="height" multiplier="0.9" id="rry-6B-KsK"/>
+                            <constraint firstItem="b21-Hj-6Ua" firstAttribute="centerX" secondItem="Cna-SD-ZQ0" secondAttribute="centerX" priority="750" id="uY4-e1-EUE"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="testModeSwitch" destination="k3r-65-g2S" id="zHA-gZ-tNO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NIj-t6-B17" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="975" y="-77"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
