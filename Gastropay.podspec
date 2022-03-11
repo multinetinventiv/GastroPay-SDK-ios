@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Gastropay"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "A framework of Gastropay."
 
   # This description is used to generate tags and improve search results.
